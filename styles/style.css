@@ -1,0 +1,231 @@
+.fira-sans {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  body{
+    margin-left: 160px;
+    margin-right: 160px;
+  }
+header .banner-start{
+border-radius: 24px;
+background-color: rgb(198, 228, 214);
+padding:80px 60px;
+gap: 64px;
+margin: 0;
+}
+/* navigation styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 24px 0;
+}
+.nav-ti{
+    font-weight: 700;
+    font-size: 32px;
+}
+nav>ul>li{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+}
+.sign-btn{
+    color: rgb(0, 106, 80);
+    font-size: 18px;  
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 8px;
+    padding: 15px 30px;
+    background-color:none ;
+    font-weight:600;
+    cursor: pointer;
+    
+}
+/* banner styles */
+
+
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin: 0 35px 0 176px; */
+}
+.banner-con{
+width: 622px;
+}
+.banner-gr{
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+}
+.banner-ti{
+    color: rgb(14, 14, 14);
+    font-size: 56px;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 16px;
+}
+.banner-des{
+   /* margin: 0; */
+   text-align: left;
+   /* margin-top: 24px; */
+   font-weight:600;
+}
+.img-con{
+    width: 480px;
+    height: 400px;
+}
+.btn-py{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    border: none ;
+    border-radius: 8px;
+    padding: 17px 34px;
+    background-color:rgb(0, 106, 80) ;
+    cursor: pointer;
+    /*new code learn */
+    display: inline-block;
+    white-space: nowrap;
+}
+/*    share-codes   */
+.section-ti{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+}
+.margin-top{
+    margin-top: 80px;
+}
+.section-des{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+  /* --- */
+
+  /* main section styles */
+  .main{
+margin: 0 auto;
+  }
+  main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+  }
+  /* pillars container */
+  .pillars{
+    
+  }
+.pillar-con{
+    display:flex;
+    gap: 24px;
+
+}
+.pillar{
+    padding: 24px;
+    border-radius: 16px;
+    box-shadow: 0px 6px 55px 0px rgba(0, 0, 0, 0.06);
+    width: 302px;
+    height: 244px;
+}
+.pillar-img{
+width: 49.66px;
+height: 53.09px;
+left: 13.34px;
+top: 1px;
+}
+.pillar-ti{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 700;
+}
+.pillar-des{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+}
+/* future container styles */
+.future-con{
+    display:flex;
+    gap: 24px;
+}
+.fu{
+    padding: 24px;
+    border-radius: 16px;
+    box-shadow: 0px 6px 55px 0px rgba(0, 0, 0, 0.06);
+    width: 410.67px;
+    height: 325px;
+}
+.fu-ti{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 700;
+}
+.fu-des{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+}
+.fu-btn{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    border: none ;
+    border-radius: 8px;
+    padding: 11px 20px;
+    cursor: pointer;
+    /*new code learn */
+    display: inline-block;
+    white-space: nowrap;
+}
+/* background colors */
+.fu-back1{
+    background-color:rgba(84, 144, 245, 0.2) ;
+}
+.fu-back2{
+    background-color:rgb(198, 228, 214) ;
+}
+.fu-back3{
+    background-color: rgb(247, 235, 207);
+}
+.btn-back1{
+    background-color: rgb(84, 144, 245);
+}
+.btn-back2{
+    background-color:rgb(9, 161, 92) ;
+}
+.btn-back3{
+    background-color:rgb(255, 194, 57) ;
+}
+/*--------- */
+/* yunus er styles */
+.yunus{
+    padding: 24px;
+    border-radius: 16px;
+    box-shadow: 0px 6px 55px 0px rgba(0, 0, 0, 0.06);
+    width: 1376px;
+    height: auto;
+    margin-top:-98px ;
+    margin-bottom: 80px;
+}
+.yunus-img{
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    padding-top: 22px;
+}
+.yu-ti{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: -12px;
+}
+    
+.yu-des{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: -4px;
+   
+}
