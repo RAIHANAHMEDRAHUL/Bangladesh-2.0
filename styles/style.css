@@ -341,5 +341,10 @@ margin-top: 32px;
     line-height: 24px;
     text-align:center;
 }
+.done{
+    display: flex;
+justify-content: center;
+margin-top: 32px;
+}
 
   
